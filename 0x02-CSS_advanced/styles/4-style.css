@@ -2,8 +2,8 @@
 Here additional css is added to the script.
 */
 :root{
-	font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body {
 	font: var(font-family-base);
