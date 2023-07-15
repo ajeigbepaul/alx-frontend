@@ -1,26 +1,21 @@
 /*
-Here additional css is added to the root adding custom colors to the script.
+Here additional css is added to the root adding custom colors to the script
 */
-:root{
-	color-primary : #d73953;
-	color-black : #090909;
-	color-white : #ffffff;
-	color-light-grey : #f3f3f3;
-	color-dark-grey : #353535;
-	text-color : var(color-black);
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
 }
-body {
-        color: var(text-color);
-}
-a {
-        color: var(text-color);
-}
-.visually-hidden {
-        display: none;
-}
+
+.section-tagline,
 .card-category {
-        color: var(color-primary);
+  color: var(--color-primary); /* Resetting the color to color-primary */
 }
-.section-tagline {
-        color: var(color-primary);
+
+body,
+a {
+  color: var(--text-color); /* Resetting the color to text-color */
 }
