@@ -1,6 +1,6 @@
-"""
-smooth scrolling of the html
-"""
+/*
+this is an html scroll
+*/
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
