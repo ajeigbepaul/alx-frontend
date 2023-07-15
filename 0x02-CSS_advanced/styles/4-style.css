@@ -1,13 +1,15 @@
 /*
 Here additional css is added to the script.
 */
-:root{
-	font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+:root {
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 body {
-	font: var(font-family-base);
+  font-family: var(--font-family-base);
 }
+
 h1, h2, h3, h4, h5, h6 {
-  	font: var(font-family-title);
+  font-family: var(--font-family-title);
 }
