@@ -21,4 +21,7 @@ html {
 }
 body {
   font-size: var(--font-size-medium); /* Applying font-size-medium to the body element */
+  color: var(--text-color);
+  font-family: var(--font-family-base);
 }
+
