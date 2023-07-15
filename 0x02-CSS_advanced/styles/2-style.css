@@ -1,9 +1,6 @@
 /*
-Here additional css is added to the script.
+Here additional css for the body, anchor and others are added to the script.
 */
-html {
-        scroll-behavior: smooth;
-}
 body {
 	color: '#161616';
 }
