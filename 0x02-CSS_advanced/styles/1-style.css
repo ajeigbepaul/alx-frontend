@@ -1,7 +1,6 @@
 """
 smooth scrolling of the html
 """
-html{
-	scroll-behaviour: smooth;
+html {
+  scroll-behavior: smooth;
 }
-
