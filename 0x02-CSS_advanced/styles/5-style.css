@@ -18,10 +18,22 @@ Here additional css is added to the root for various font-sizes in the script.
   font-size: 62.5%;
 }
 
+.section-tagline,
+.card-category {
+  color: var(--color-primary); /* Resetting the color to color-primary */
+}
 html {
-	font-size : 62.5%;
+	font-size: 62.5%;
 }
 
 body {
+        color: var(--text-color);
+        font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
+a {
+  color: var(--text-color); /* Resetting the color to text-color */
 }
