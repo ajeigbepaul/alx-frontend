@@ -9,9 +9,6 @@ Here additional css is added to the root adding custom colors to the script.
 	color-dark-grey : #353535;
 	text-color : var(color-black);
 }
-html {
-        scroll-behavior: smooth;
-}
 body {
         color: var(text-color);
 }
