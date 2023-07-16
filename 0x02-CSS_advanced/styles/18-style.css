@@ -153,8 +153,9 @@ a[href]:active {
 
 .nav .nav-link {
   display: block;
-  padding: calc(0.5 * 1rem) var(--font-size-medium);
+  padding: calc(0.5 * var(--font-size-medium)) var(--font-size-medium);
 }
+
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
