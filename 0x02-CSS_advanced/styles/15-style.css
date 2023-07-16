@@ -1,6 +1,10 @@
 /*
 Here additional css for font-size is added to the script.
 */
+/* Universal box-sizing rule */
+* {
+  box-sizing: border-box;
+}
 :root {
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -25,7 +29,6 @@ Here additional css for font-size is added to the script.
   --section-title-margin: 0;
   --section-title-color: black;
 }
-hr{box-sizing:content-box;height:0;overflow:visible}
 .section-tagline,
 .card-category {
   color: var(--color-primary); /* Resetting the color to color-primary */
