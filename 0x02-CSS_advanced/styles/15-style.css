@@ -25,6 +25,7 @@ Here additional css for font-size is added to the script.
   --section-title-margin: 0;
   --section-title-color: black;
 }
+hr{box-sizing:content-box;height:0;overflow:visible}
 .section-tagline,
 .card-category {
   color: var(--color-primary); /* Resetting the color to color-primary */
@@ -32,11 +33,7 @@ Here additional css for font-size is added to the script.
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
- */
-
-* {
-  box-sizing:content-box;height:0;overflow:visible
-}
+ **/
 
 html {
         font-size: 62.5%;
