@@ -35,8 +35,9 @@ Here additional css for font-size is added to the script.
  */
 
 * {
-  box-sizing: border-box;
+  box-sizing:content-box;height:0;overflow:visible
 }
+
 html {
         font-size: 62.5%;
 }
