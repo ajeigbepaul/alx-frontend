@@ -142,7 +142,7 @@ a[href]:active {
   list-style: none;
   text-align: center;
 }
-.nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -151,10 +151,10 @@ a[href]:active {
   margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
   display: block;
-  padding: calc(var(--nav-item-font-size) / 2) var(--nav-item-font-size);
+  padding: calc(0.5 * 1rem) var(--font-size-medium);
 }
-.nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
